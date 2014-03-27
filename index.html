@@ -15,18 +15,14 @@
     <script>$('.carousel').carousel()</script>
 	</head>
 	<body>
-  	<div id = "header"></div>
-  	<h1>Ride BU</h1>
-  	<!--Carousel goes below-->
-  	<!--  Carousel - consult the Twitter Bootstrap docs at 
-      http://twitter.github.com/bootstrap/javascript.html#carousel -->
+  	<div id = "header"><h1>Ride BU</h1></div>
+  	<!--Carousel -->
     <div id="myCarousel" class="carousel slide"><!-- class of slide for animation -->
       <!-- Indicators -->
       <ol class="carousel-indicators">
         <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
         <li data-target="#myCarousel" data-slide-to="1"></li>
         <li data-target="#myCarousel" data-slide-to="2"></li>
-        <li data-target="#myCarousel" data-slide-to="3"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active"><!-- class of active since it's the first item -->
@@ -47,24 +43,30 @@
             <p>Caption Three</p>
           </div>
         </div>
-        <div class="item">
-          <img src="http://placehold.it/1600x480" alt="Picture 4" />
-          <div class="carousel-caption">
-            <p>Caption Four</p>
-          </div>
-        </div>
       </div><!-- /.carousel-inner -->
-      <!--  Next and Previous controls below
-            href values must reference the id for this carousel -->
-        <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>
-        <a class="carousel-control right" href="#myCarousel" data-slide="next">&rsaquo;</a>
+      <!-- Next and Previous Controls -->
+        <a class="carousel-control left" href="#myCarousel" data-slide="prev">
+          <span class = "glyphicon glyphicon-chevron-left"></span>
+        </a>
+        <a class="carousel-control right" href="#myCarousel" data-slide="next">
+          <span class = "glyphicon glyphicon-chevron-right"></span>
+        </a>
     </div><!-- /.carousel -->
 
     <!--Grid-->
     <div class="row">
-      <div class="col-md-4">About the program</div>
-      <div class="col-md-4">News</div>
-      <div class="col-md-4">Events (Latest Updates)</div>
+      <div class="col-md-4">
+        <h4>About Our Club</h4>
+        <p>Ride at Binghamton University is a bicycle advocacy club responsible for running the Binghamton University Bike Share and advocating for the Binghamton Greenway.</p>
+      </div> <!-- .col-md-4 -->
+      <div class="col-md-4">
+        <h4>News</h4>
+        <p>No recent news</p>
+      </div> <!-- .col-md-4 -->
+      <div class="col-md-4">
+        <h4>Events</h4>
+        <p>No upcoming events</p>
+      </div> <!-- .col-md-4 -->
     </div> <!-- .row -->
     <div class="row">
      	<div class="col-md-4">Social Media</div>
