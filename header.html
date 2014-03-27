@@ -2,7 +2,68 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<link rel="stylesheet" href='css/bootstrap-3.1.1-dist/bootstrap.css'>
+		<link rel="stylesheet" href='css/bootstrap-3.1.1-dist/css/bootstrap.css'>
+		<style type="text/css">
+			.navbar-default {
+			  background-color: #274822;
+			  border-color: #032906;
+			}
+			.navbar-default .navbar-brand {
+			  color: #ffffff;
+			}
+			.navbar-default .navbar-brand:hover, .navbar-default .navbar-brand:focus {
+			  color: #c0c0c0;
+			}
+			.navbar-default .navbar-text {
+			  color: #ffffff;
+			}
+			.navbar-default .navbar-nav > li > a {
+			  color: #ffffff;
+			}
+			.navbar-default .navbar-nav > li > a:hover, .navbar-default .navbar-nav > li > a:focus {
+			  color: #c0c0c0;
+			}
+			.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:hover, .navbar-default .navbar-nav > .active > a:focus {
+			  color: #c0c0c0;
+			  background-color: #032906;
+			}
+			.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {
+			  color: #c0c0c0;
+			  background-color: #032906;
+			}
+			.navbar-default .navbar-toggle {
+			  border-color: #032906;
+			}
+			.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+			  background-color: #032906;
+			}
+			.navbar-default .navbar-toggle .icon-bar {
+			  background-color: #ffffff;
+			}
+			.navbar-default .navbar-collapse,
+			.navbar-default .navbar-form {
+			  border-color: #ffffff;
+			}
+			.navbar-default .navbar-link {
+			  color: #ffffff;
+			}
+			.navbar-default .navbar-link:hover {
+			  color: #c0c0c0;
+			}
+
+			@media (max-width: 767px) {
+			  .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+			    color: #ffffff;
+			  }
+			  .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+			    color: #c0c0c0;
+			  }
+			  .navbar-default .navbar-nav .open .dropdown-menu > .active > a, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+			    color: #c0c0c0;
+			    background-color: #032906;
+			  }
+			}
+		</style>
 	</head>
 	<body>
 		<nav class="navbar navbar-default" role="navigation">
@@ -22,7 +83,7 @@
 	    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      			<ul class="nav navbar-nav">
 	        			<li class="active"><a href="#">About</a></li>
-	        			<li><a href="#">The Program</a></li>
+	        			<li><a href="#">Using Bikeshare</a></li>
 	              <li><a href="#">Greenway</a></li>
 	        			<li class="dropdown">
 	          				<a href="#" class="dropdown-toggle" data-toggle="dropdown">The Shop<b class="caret"></b></a>
@@ -38,6 +99,9 @@
 	        			</li>
 	      			</ul>
 	      			<form class="navbar-form navbar-right" role="search">
+	      				<ul class = "nav navbar-nav">
+	      					<li><a href="#">Contact Us</a></li>
+	      				</ul>
 	        			<div class="form-group">
 	          				<input type="text" class="form-control" placeholder="Search">
 	        			</div>
