@@ -1,0 +1,25 @@
+/*"It's the About Page stylesheet, bitch!"*/
+
+*{
+  font-family: sans-serif;
+}
+
+body{
+  font-family: sans-serif;
+  }
+
+
+.title1{
+  color: #030;
+  margin-left: 90px;
+}
+
+.paragraph{
+  font-family: arial;
+  text-align: center;
+  color: #FF00FF;
+}
+
+
+  
+  
