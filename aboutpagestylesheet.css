@@ -1,12 +1,12 @@
 /*"It's the About Page stylesheet, bitch!"*/
 
-*{
+/**{
   font-family: sans-serif;
 }
 
 body{
   font-family: sans-serif;
-  }
+  }*/
 
 
 .title1{
@@ -18,6 +18,10 @@ body{
   font-family: arial;
   text-align: center;
   color: #FF00FF;
+}
+
+#thing{
+	color: #0000FF;
 }
 
 
