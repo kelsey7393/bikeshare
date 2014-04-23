@@ -11,18 +11,113 @@ body{
 
 .title1{
   color: #030;
-  margin-left: 90px;
+  margin-left: 39px;
 }
 
-.paragraph{
+.title2{
+  color: #030;
+  margin-left: 45px;
+}
+
+.title2{
+  color: #030
+}
+.para{
   font-family: arial;
-  text-align: center;
-  color: #FF00FF;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 45px;
+  color: #006600;
 }
 
-#thing{
-	color: #0000FF;
+.list{
+  font-family: arial;
+  text-align: left;
+  margin-left: 60px;
+  margin-right: 45px;
+  color: #006600;
 }
+
+
+
+#backgroundabout{
+	color: #FF0000;
+}
+
+#background1{
+	color: #006600;
+}
+
+#leftside{
+  display: block;
+  background-color: #006600;
+  height: 600px;
+  width: 220px;
+  float: left;
+  margin: 5px;
+}
+
+#rightside{
+  display: block;
+  background-color: #006600;
+  height: 600px;
+  width: 200px;
+  float: right;
+}
+#content{
+  display: block;
+  background-color: #FFFFFF;
+  margin-left: 200px;
+  margin-right: 200px;
+  overflow: hidden;
+ }
+ 
+ #wrapper{
+   width: 1500px;
+   overflow: hidden;
+ }
+   
+   
+ ul#navmenu{
+   background-color: #FFFFFF;
+   margin: 5px;
+   width: 220px;
+   list-style-type: none;
+   
+ }
+/*contextual selector
+ #navmenu li{
+   margin: 6px;
+ }*/
+ 
+ #navmenu li a{
+   display: block;
+   width: 180px;
+   height: 30px;
+   border: 5px outset #000000;
+   text-align: center;
+   line-height: 30px;
+   text-decoration: none; 
+ 
+ }
+ 
+ #navmenu li a:hover {
+   background-color: #B2C2B2;  
+ }
+ 
+ #page1 li#link1 a #page2 li#link2 a #page3 li#link3 a #page4 li#link4 a #page5 li#link5 a{
+   background-color: #FF0;
+   border: 5px inset #F00;
+ }
+ 
+ 
+ 
+
+ 
+   
+   
+ 
+ 
 
 
   
